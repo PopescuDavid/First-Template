@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <label class="logo"><a href="index.html"><img src="images/logo.png"></a></label>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="main-paragraph">
+        <p>
+            <br>
+            <h1>Contact Us</h1> <br>
+            <hr color=#FFAE00><br>
+            <font color="white">Nisl nisi scelerisque eu ultrices vitae auctor eu. Nulla at volutpat diam ut <br> venenatis tellus in metus vulputate. Ultricies mi quis hendrerit dolor magna.</font>
+
+        </p>
+    </div>
+    <div class="second-paragraph">
+        <img width=100px src="images/location.png">
+        <img width=80px src="images/email.png">
+        <img width=113px src="images/phone.png">
+        <div class="location-text">
+            <font color=#939393>Address:</font>
+            <br><br><font size=4px>
+            121 Rock Street, 21 Avenue, <br>
+            New York, NY 92103-9000</font>
+        </div>
+        <div class="email-text">
+            <font color=#939393>Email:</font>
+            <br><br><font size=4px>
+            <u><b>hello@company.com</b></u> <br>
+            <b><u>support@company.com</u></b></font>
+        </div>
+        <div class="phone-text">
+            <font color=#939393>Call us:</font>
+            <br><br><font size=4px>
+            1 (234) 567-891 <br>
+            1 (234) 987-654</font>
+        </div>
+    </div>
+    <div class="footer">
+        <p><a href="#">Link 1</a></p>
+        <p><a href="#">Link 2</a></p>
+    </div>
+</body>
+<style>
+   *{
+       padding:0;
+       margin:0;
+       text-decoration: none;
+       list-style: none;
+   }
+   body{
+       margin:0;
+       height:100%;
+       overflow: hidden;
+       font-family: Arial, Helvetica, sans-serif;
+       background-image:url("images/background.jpg");
+       background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.6) 100%), url("images/background.jpg");
+       height:100vh;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+   nav{
+       background:white;
+       height:80px;
+       width:100%;
+   }
+   label.logo{
+       padding:0 350px;
+       line-height: 85px;
+       font-size: 55px;
+   }
+   nav ul{
+       float:right;
+       margin-right: 350px;
+   }
+   nav ul li{
+       display:inline-block;
+       line-height: 85px;
+       margin: 0 20px;
+   }
+   nav ul li a{
+       color:black;
+       font-size: 15px;
+       text-transform: uppercase;
+   }
+   nav ul li a:hover{
+       color:#FF9700 ;
+   }
+   .main-paragraph{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        color:#FFAE00;
+        text-align: center;
+        padding-top:95px;
+   }
+   .main-paragraph hr{
+       position: absolute;
+       width:70px;
+       height:3px;
+       left:48.1%;
+   }
+   .second-paragraph{
+        background-color:white;
+        position: absolute;
+        width:63.5%;
+        height:39%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        color:#FFAE00;
+        text-align: center;
+        top:44.5%;
+        left:18.5%;
+   }
+   .second-paragraph img{
+       position:relative;
+       top:-100px;
+       padding:150px;
+   }
+   .location-text{
+       color:black;
+       position:relative;
+       left:-33%;
+       top:-219px;
+   }
+   .email-text{
+       color:black;
+       position:relative;
+       left:0%;
+       top:-341px;
+   }
+   .phone-text{
+       color:black;
+       position:relative;
+       left:33%;
+       top:-460px;
+   }
+   .footer {
+       position: absolute;
+        position: fixed;
+        font-size:17px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #5A666E;
+        color: #D7D7D7;
+        padding-left:358px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .footer p a{
+        color:#D7D7D7
+    }
+</style>
+</html>

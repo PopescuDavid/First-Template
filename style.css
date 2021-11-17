@@ -1,0 +1,139 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    margin:0;
+    height:100%;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url("images/background.jpg");
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.6) 100%), url("images/background.jpg");
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background:white;
+    height:80px;
+    width:100%;
+}
+.logo{
+    position: relative;
+    left:350px;
+    top:20px;
+}
+nav ul{
+    float:right;
+    margin-right: 50px;
+}
+nav ul li{
+    position: relative;
+    top:-10px;
+    right:65%;
+    display:inline-block;
+    line-height:10px;
+    margin: 0 40px;
+}
+nav ul li a{
+    color:black;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    color:#FF9700 ;
+}
+.main-paragraph{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 27px;
+     color:#FFAE00;
+     text-align: center;
+     padding-top:95px;
+}
+
+
+.main-paragraph hr{
+    background:#FFAE00;
+    border: none;
+    position: absolute;
+    width:70px;
+    height:5px;
+    left:48.1%;
+    top:27%;
+}
+.main-paragraph span{
+    position: absolute;
+    
+    top:30%;
+    left:28%;
+}
+.second-paragraph{
+     background-color:white;
+     position: absolute;
+     width:63.5%;
+     height:39%;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 21px;
+     color:#FFAE00;
+     text-align: center;
+     top:44.5%;
+     left:18.5%;
+}
+.second-paragraph img{
+    position:relative;
+    top:-95px;
+    padding:150px;
+}
+.location-text{
+    color:black;
+    position:relative;
+    left:-33%;
+    top:-219px;
+}
+.location-content{
+     font-size:21px;
+     position: relative;
+     top:30px;
+ }
+.email-text{
+    color:black;
+    position:relative;
+    left:0%;
+    top:-300px;
+}
+ .email-content{
+     font-size:21px;
+     position: relative;
+     top:30px;
+     font-weight: bold;
+ }
+.phone-text{
+    color:black;
+    position:relative;
+    left:33%;
+    top:-370px;
+}
+.phone-content{
+     font-size:21px;
+     position: relative;
+     top:30px;
+}
+footer {
+     position: absolute;
+     position: fixed;
+     font-size:17px;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: #5A666E;
+     color: #D7D7D7;
+     padding-left:358px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+}
+footer a{
+     color:#D7D7D7;
+}
